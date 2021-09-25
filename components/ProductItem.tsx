@@ -1,5 +1,6 @@
 import React, { memo, useState } from "react";
 import dynamic from "next/dynamic";
+
 import { AddProductToWishListProps } from "./AddProductToWishList";
 
 const AddProductToWishList = dynamic<AddProductToWishListProps>(
